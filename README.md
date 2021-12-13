@@ -1,8 +1,8 @@
 # Movie fetching App
-This is a simple movie fetching App that works with Firebase Realtime Database.
+This is a simple movie fetching app that works with Firebase Realtime Database.
 User can view movies from the database and add new movie by filling out the form.
 The loading and error states are handled.
-### `GET` request is used to fetch movies from database: 
+### `GET` request is used to fetch movies from the database: 
     const fetchMoviesHandler = useCallback(async () => {
         setIsLoading(true);
         setError(null);
