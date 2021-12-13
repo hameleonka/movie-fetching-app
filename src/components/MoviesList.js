@@ -9,8 +9,8 @@ function MovieList(props) {
         <Movie
           key={movie.id}
           title={movie.title}
-          releaseDate={movie.releaseDate}
-          openingText={movie.openingText}
+          storyline={movie.storyline}
+          releaseYear={movie.releaseYear}
         />
       ))}
     </ul>
