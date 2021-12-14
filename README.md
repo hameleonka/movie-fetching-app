@@ -1,7 +1,7 @@
 # Movie fetching App
-This is a simple movie fetching app that works with Firebase Realtime Database.
-User can view movies from the database and add new movie by filling out the form.
-The loading and error states are handled.
+This is a simple movie fetching app that works with Firebase Realtime Database.  
+User can view movies from the database and add new movie by filling out the form.  
+The loading and error states are handled.  
 The demo is available [https://hameleonka.github.io/movie-fetching-app/](https://hameleonka.github.io/movie-fetching-app/).
 ### `GET` request is used to fetch movies from the database: 
     const fetchMoviesHandler = useCallback(async () => {
